@@ -1,10 +1,28 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
-
-	<prescription type="provider" class="com.youdao.sdk.extra.common.AdDownloadProvider" sender="any"/>
-	<prescription type="provider" class="com.baidu.mobads.openad.FileProvider" sender="any"/>
-	<prescription type="provider" class="com.bytedance.sdk.openadsdk.TTFileProvider" sender="any"/>
-	<prescription type="provider" class="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider" sender="any"/>
-
+	<prescription type="activity" class="com.google.android.gms.ads.AdActivity" sender="any"/>
+	<prescription type="activity" class="com.amazon.device.ads.AdActivity" sender="any"/>
+	<prescription type="activity" class="com.inmobi.androidsdk.IMBrowserActivity" sender="any"/>
+	<prescription type="activity" class="com.millennialmedia.android.MMActivity" sender="any"/>
+	<prescription type="activity" class="com.keymob.sdk.core.KeymobActivity" sender="any"/>
+	<prescription type="activity" class="com.baidu.mobads.AppActivity" sender="any"/>
+	<prescription type="activity" class="com.jirbo.adcolony.AdColonyOverlay" sender="any"/>
+	<prescription type="activity" class="com.jirbo.adcolony.AdColonyFullscreen" sender="any"/> 
+	<prescription type="activity" class="com.jirbo.adcolony.AdColonyBrowser" sender="any"/>
+	<prescription type="activity" class="com.qq.e.ads.ADActivity" sender="any"/>
+	<prescription type="activity" class="com.youdao.sdk.common.YouDaoBrowser" sender="any"/>
+	<prescription type="activity" class="com.youdao.sdk.video.YouDaoVideoActivity" sender="any"/>
+	<prescription type="activity" class="com.baidu.mobads.AppActivity" sender="any"/>
+	<prescription type="activity" class="com.baidu.mobads.production.rewardvideo.MobRewardVideoActivity" sender="any"/>
+	<prescription type="activity" class="com.qq.e.ads.PortraitADActivity" sender="any"/>
+	<prescription type="activity" class="com.qq.e.ads.LandscapeADActivity" sender="any"/>
+	<prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity" sender="any"/>
+	<prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity" sender="any"/>
+	<prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity" sender="any"/>
+	<prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity" sender="any"/>
+	<prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTDelegateActivity" sender="any"/>
+	<prescription type="activity" class="com.ss.android.socialbase.appdownloader.view.DownloadSizeLimitActivity" sender="any"/>
+	<prescription type="activity" class="com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity" sender="any"/>
+	<prescription type="activity" class="com.ss.android.downloadlib.activity.InteractionMiddleActivity" sender="any"/>
 
 	<prescription type="service" class="com.qq.e.comm.DownloadService" sender="any"/> 
 	<prescription type="service" class="com.youdao.sdk.common.YouDaoAppService" sender="any"/>
@@ -14,6 +32,4 @@
 	<prescription type="service" class="com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService" sender="any"/>
 	<prescription type="service" class="com.ss.android.socialbase.downloader.impls.DownloadHandleService" sender="any"/>
 	<prescription type="service" class="com.ss.android.socialbase.appdownloader.AppDownloadHandleService" sender="any"/>
-
-	<prescription type="receiver" class="com.ss.android.downloadlib.core.download.DownloadReceiver" sender="any"/>
 </prescriptions>
