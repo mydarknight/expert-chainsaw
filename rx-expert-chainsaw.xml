@@ -26,7 +26,7 @@
 
 	<prescription type="provider" class="com.youdao.sdk.extra.common.AdDownloadProvider" sender="any"/>
 	<prescription type="provider" class="com.baidu.mobads.openad.FileProvider" sender="any"/>
-    <prescription type="provider" class="com.bytedance.sdk.openadsdk.TTFileProvider" sender="any"/>
+	<prescription type="provider" class="com.bytedance.sdk.openadsdk.TTFileProvider" sender="any"/>
 	<prescription type="provider" class="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider" sender="any"/>
 
 
