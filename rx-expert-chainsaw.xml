@@ -24,12 +24,6 @@
 	<prescription type="activity" sender="any" class="com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity"/>
 	<prescription type="activity" sender="any" class="com.ss.android.downloadlib.activity.InteractionMiddleActivity"/>
 
-	<prescription type="provider" sender="any" class="com.youdao.sdk.extra.common.AdDownloadProvider"/>
-	<prescription type="provider" sender="any" class="com.baidu.mobads.openad.FileProvider"/>
-	<prescription type="provider" sender="any" class="com.bytedance.sdk.openadsdk.TTFileProvider"/>
-	<prescription type="provider" sender="any" class="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"/>
-
-
 	<prescription type="service" sender="any" class="com.qq.e.comm.DownloadService"/> 
 	<prescription type="service" sender="any" class="com.youdao.sdk.common.YouDaoAppService"/>
 	<prescription type="service" sender="any" class="com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService"/>
