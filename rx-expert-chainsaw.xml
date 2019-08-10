@@ -33,5 +33,5 @@
 	<prescription type="service" sender="any" class="com.ss.android.socialbase.downloader.impls.DownloadHandleService"/>
 	<prescription type="service" sender="any" class="com.ss.android.socialbase.appdownloader.AppDownloadHandleService"/>
 
-    <prescription type="receiver" sender="any" class="com.ss.android.downloadlib.core.download.DownloadReceiver"/>
+	<prescription type="receiver" sender="any" class="com.ss.android.downloadlib.core.download.DownloadReceiver"/>
 </prescriptions>
