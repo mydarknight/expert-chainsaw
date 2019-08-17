@@ -34,7 +34,6 @@
 	<prescription type="service" class="com.ss.android.socialbase.appdownloader.AppDownloadHandleService" sender="any"/>
 	<prescription type="service" class="com.zhihu.android.sdk.launchad.job.AdLaunchUpdateService" sender="any"/>
 	<prescription type="service" class="com.zhihu.android.app.jobservice.AdTracksPushService" sender="any"/>
-	<prescription type="service" class="com.zhihu.android.push.jobservice.PollingPushService" sender="any"/>
 	<prescription type="service" class="com.sina.push.service.SinaPushNewService" sender="any"/>
 	<prescription type="service" class="com.sina.push.service.SinaPushService" sender="any"/>
 	<prescription type="service" class="com.evernote.android.job.v14.PlatformAlarmService" sender="tv.danmaku.bili"/>
